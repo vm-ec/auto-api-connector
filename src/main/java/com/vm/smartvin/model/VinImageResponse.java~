@@ -1,0 +1,8 @@
+package com.vm.smartvin.model;
+
+@Data
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class VinImageResponse {
+    private Query query;
+    private List<Image> images;
+}
